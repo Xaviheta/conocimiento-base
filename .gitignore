@@ -1,27 +1,39 @@
-# Archivos temporales
+# ============================================
+# ARCHIVOS IGNORADOS - SEGURIDAD
+# ============================================
+
+# === CREDENCIALES Y SECRETOS (NUNCA SUBIR) ===
+.env
+.env.*
+*.env
+*.pem
+*.key
+*.crt
+credentials.json
+secrets.json
+*.secret
+*-credentials.json
+
+# === TOKENS Y LLAVES API ===
+*.token
+api-keys.json
+
+# === NODE Y DEPENDENCIAS ===
+node_modules/
+
+# === ARCHIVOS TEMPORALES ===
 tmpclaude-*
 *.tmp
 *.temp
+*.log
+*.cache
 
-# Logs (quita esta linea si quieres guardar logs)
-# scripts/*.log
-
-# Node modules
-node_modules/
-
-# Variables de entorno
-.env
-.env.local
-.env.*.local
-
-# Build outputs
-dist/
-build/
-
-# IDE
+# === IDE Y EDITORES ===
 .vscode/
 .idea/
+*.swp
 
-# OS
+# === SISTEMA OPERATIVO ===
 .DS_Store
 Thumbs.db
+desktop.ini
