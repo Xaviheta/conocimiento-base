@@ -105,6 +105,34 @@ Tu (Claude) debes:
 
 ---
 
+## Cuentas y Servicios
+
+| Servicio | Usuario/Email | Para que lo usamos |
+|----------|---------------|-------------------|
+| **GitHub** | Xaviheta | Repositorios de codigo |
+| **Railway** | xaviherreros69@gmail.com | Hosting backend |
+| **Supabase** | (mismo email) | Base de datos PostgreSQL |
+| **Redis Railway** | En Railway (proyecto loyal-quietude) | Cache interno |
+| **Redis Cloud** | redis.io (login con GitHub) | Cache adicional |
+
+### Proyectos en Supabase
+| Proyecto | Creado | Region |
+|----------|--------|--------|
+| XavIA | 26 Dic 2025 | Ireland |
+| LOTOCAM | 9 Ene 2026 | Ireland |
+| DAYFY | 10 Ene 2026 | Zurich |
+| manantial-platform | 11 Ene 2026 | Ireland |
+
+### Proyectos en Railway
+| Proyecto | Servicios | Estado |
+|----------|-----------|--------|
+| loyal-quietude | manantial-platform (backend) | ✅ |
+| loyal-quietude | Redis | ✅ |
+| loyal-quietude | zippy-youthfulness | ? |
+| | URL personalizada | ❌ Pendiente |
+
+---
+
 ## Decisiones Tecnicas Globales
 
 | Fecha | Decision | Aplica a |
