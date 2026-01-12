@@ -33,7 +33,9 @@ if ($status) {
     git commit -m $mensaje
     Write-Log "Commit realizado: $mensaje"
 
-    $pushResult = git push origin main 2>&1
+    # Detectar rama actual automaticamente
+    $rama = git branch --show-current
+    $pushResult = git push origin $rama 2>&1
     if ($LASTEXITCODE -eq 0) {
         Write-Log "Push exitoso a GitHub"
     } else {
