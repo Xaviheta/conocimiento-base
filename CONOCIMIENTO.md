@@ -16,7 +16,7 @@ Tu (Claude) debes:
 ## Quien Soy
 - **Nombre:** Xavi
 - **Empresa:** Manantial de ideas SL
-- **GitHub:** [pendiente de confirmar usuario]
+- **GitHub:** Xaviheta
 
 ---
 
@@ -64,7 +64,7 @@ Tu (Claude) debes:
 - **Ultimo trabajo:** 12 Enero 2026
 - **Donde lo dejamos:** Configuracion de autoguardado y scripts listos
 - **Siguiente paso:** Crear estructura de carpetas (frontend, backend, windows-client)
-- **GitHub:** https://github.com/[usuario]/manantial-platform
+- **GitHub:** https://github.com/Xaviheta/manantial-platform
 
 ### conocimiento-base (este proyecto)
 - **Estado:** ACTIVO
@@ -90,8 +90,8 @@ Tu (Claude) debes:
 
 1. Clonar repos desde GitHub:
    ```bash
-   git clone https://github.com/[usuario]/manantial-platform
-   git clone https://github.com/[usuario]/conocimiento-base
+   git clone https://github.com/Xaviheta/manantial-platform
+   git clone https://github.com/Xaviheta/conocimiento-base
    ```
 
 2. Verificar requisitos:
