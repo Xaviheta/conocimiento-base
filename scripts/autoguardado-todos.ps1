@@ -3,11 +3,13 @@
 # ============================================
 # Guarda automaticamente los 3 repositorios
 # Mantiene 1 copia por dia (ultimos 3 dias)
+# Detecta rutas automaticamente
 # ============================================
 
-$GITHUB_PATH = "C:\Users\Xavi\OneDrive - Manantial de ideas SL\Documentos\GitHub"
-$BACKUP_PATH = "C:\Users\Xavi\OneDrive - Manantial de ideas SL\Documentos\GitHub\_backups"
-$LOG_FILE = "$GITHUB_PATH\conocimiento-base\scripts\autoguardado.log"
+# Detectar ruta automaticamente (carpeta GitHub es 2 niveles arriba de scripts/)
+$GITHUB_PATH = Split-Path -Parent (Split-Path -Parent $PSScriptRoot)
+$BACKUP_PATH = "$GITHUB_PATH\_backups"
+$LOG_FILE = "$PSScriptRoot\autoguardado.log"
 $MAX_BACKUPS = 3
 
 $repos = @(
