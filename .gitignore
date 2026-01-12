@@ -1,0 +1,27 @@
+# Archivos temporales
+tmpclaude-*
+*.tmp
+*.temp
+
+# Logs (quita esta linea si quieres guardar logs)
+# scripts/*.log
+
+# Node modules
+node_modules/
+
+# Variables de entorno
+.env
+.env.local
+.env.*.local
+
+# Build outputs
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
